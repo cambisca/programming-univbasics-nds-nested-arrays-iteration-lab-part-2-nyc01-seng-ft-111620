@@ -7,12 +7,10 @@ def find_min_in_nested_arrays(src)
   
   while row_index < src.length do 
     element_index = 0 
-    coldest_temp = [] 
     
     while element_index < src[row_index].length do 
-      src[row_index][element_index].sort
-      coldest_temp = 
-      low_temps << coldest_temp 
+      coldest_temp =  src[row_index][element_index].sort
+      low_temps << coldest_temp[0]
       
   
     end 
