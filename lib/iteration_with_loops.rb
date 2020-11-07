@@ -13,8 +13,8 @@ def find_min_in_nested_arrays(src)
       coldest_temp =  src[row_index].sort
       daily_lows << coldest_temp[0] 
       element_index += 25 
-  
     end 
+    
     lows_for_week << daily_lows 
     row_index += 1 
   end    
