@@ -15,6 +15,8 @@ def find_min_in_nested_arrays(src)
       element_index += 25 
   
     end 
-    lows_for_week << single_lows 
+    lows_for_week << daily_lows 
+    row_index += 1 
   end    
+  lows_for_week 
 end
