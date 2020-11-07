@@ -11,7 +11,7 @@ def find_min_in_nested_arrays(src)
     while element_index < src[row_index].length do 
       coldest_temp =  src[row_index][element_index].sort
       low_temps << coldest_temp[0]
-      
+      element_index += 25 
   
     end 
   end    
